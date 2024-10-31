@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.beranda {
+    position: relative; /* Menetapkan posisi relatif untuk elemen ini */
+    background-image: url('img/sejarah jpg.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Atur tinggi sesuai kebutuhan */
+    width: 1000px;
+    color: white;
+    text-align: center;
+}
+
+.beranda h2,
+.beranda p {
+    position: absolute; /* Memungkinkan pemindahan teks */
+    left: 50%;
+    transform: translateX(-50%); /* Pusatkan teks secara horizontal */
+    top: 20%; /* Atur posisi vertikal */
+    z-index: 1; /* Pastikan teks berada di atas gambar */
+    margin: 0; /* Hapus margin untuk lebih baik */
+}
+
+main {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
