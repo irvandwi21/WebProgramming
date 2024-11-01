@@ -32,7 +32,7 @@ nav ul li a {
 
 .beranda {
     position: relative; /* Menetapkan posisi relatif untuk elemen ini */
-    background-image: url('img/sejarah jpg.jpg'); /* Ganti dengan path gambar Anda */
+    background-image: url('sejarah\ jpg.jpg'); /* Ganti dengan path gambar Anda */
     background-size: cover;
     background-position: center;
     height: 500px; /* Atur tinggi sesuai kebutuhan */
